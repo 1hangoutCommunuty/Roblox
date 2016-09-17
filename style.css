@@ -3,6 +3,7 @@ h2{
   font-family:'Open Sans';
   color:#212121;
   font-size:2em;
+  display:block;
 }
   #donatebutton{
     text-align: center;
