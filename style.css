@@ -1,0 +1,123 @@
+  #donatebutton{
+    text-align: center;
+    width: 100%;
+  }
+  body,header,nav,h1{
+    padding: 0;
+    margin:0;
+  }
+  body{
+    background:#E57A44;
+  }
+  button{
+    background:green;
+    padding-bottom:50px;
+    padding-top:50px;
+    margin:0 auto;
+    display:inline;
+    width:250px;
+    height:250px;
+    font-size:50px;
+    cursor:pointer;
+  }
+  a{
+    color: white;
+    text-decoration:none;
+  }
+  .searchWrapper{
+    width:100%;
+    text-align: center;
+    margin:1%;
+  }
+  .searchWrapper input{
+    font-size:2em;
+    margin:0 auto;
+    padding:2px 6px;
+    width:100%;
+    box-sizing:border-box;
+  }
+  .site
+  {
+    font-family:"Open Sans";
+  }
+  .navbar{
+    list-style-type: none
+  }
+  .navbar li{
+    display:inline;
+    border: 2px solid blue;
+    padding:20px;
+    height:100%;
+    background-image: url(dark_embroidery.png);
+    color:white;
+    cursor:pointer;
+  }
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    background:yellow;
+    padding:15px;
+  }
+  img{
+    max-width: 100%;
+  }
+  .header{
+    background-color: #E57A44;
+    margin: 0 auto;
+    display: block;
+  }
+  .game{
+    /*width:45%;*/
+    /*flex: 1 0 50%;*/
+    /*box-sizing: border-box;
+    padding: 10px;*/
+  }
+  .wrapper{
+    width:100%;
+    background:yellow;
+    padding:15px;
+    height:100%;
+    box-sizing:border-box;
+    display: flex;
+    flex-flow: wrap;
+    max-width: 1000px;
+    margin:0 auto;
+  }
+  nav.nav {
+    font-size:1.6em;
+    font-family:sans-serif;
+    padding:0;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    background:yellow;
+  }
+  .tab{
+    background:#CC6D3D;
+    padding:10px;
+    border-radius:5px 5px 0px 0px;
+    margin:0px 0px 0px 8px;
+  }
+  .title{
+    background: rgba(229, 122, 68, 0.7);
+    color:white;
+    padding: 1%;
+    margin: 1%;
+    font-size: 20px;
+    width: 29.33%;
+  }
+  @media (max-width: 700px) {
+    .title{
+      width: 46%;
+    }
+  }
+  @media (max-width: 450px) {
+    .title{
+      width: 96%;
+    }
+  }
