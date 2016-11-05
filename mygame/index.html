@@ -13,7 +13,7 @@
 <!-- file:///C:/Users/Austin/Documents/My%20Stuff/My%20Stuff/websites/Austin's%20Website%20%232/index.html -->
 <body>
   <!-- yyyy-mm-dd -->
-  <time datetime="2016-11-05"></time>
+  <time datetime="2016-09-24"></time>
   <header>
     <div class='nav-wrapper'>
       <h1 class='site'><img src="../logo.png" alt="Fun Roblox Games Logo"></h1>
@@ -21,18 +21,124 @@
   </header>
   <nav class="nav">
     <a href="../" class="tab">Roblox</a>
-    <a href="#" class="tab">Other Games I Like</a>
-    <a href="../mygame" class="tab">My Game</a>
+    <a href="../other" class="tab">Other Games I Like</a>
+    <a href="#" class="tab">My Game</a>
   </nav>
   <a href='https://www.roblox.com/games/?SortFilter=default&TimeFilter=0&GenreFilter=1'><img src="../roblox background.png" class="header"></a>
 
 
   <article class="wrapper">
     <script src="https://apis.google.com/js/platform.js"></script>
-  <div class="g-ytsubscribe" data-channelid="UCCYm6GAI6Jy45ju1OL15-pA" data-layout="full" data-count="default"></div>
+    <div class="g-ytsubscribe" data-channelid="UCCYm6GAI6Jy45ju1OL15-pA" data-layout="full" data-count="default"></div>
     <form class="searchWrapper">
       <input type="text" name="search" placeholder="Search Roblox" class="search">
     </form>
+    <canvas id = "canvas" width = "640" height = "480"
+      style = "border:1px solid gray; width: 640px; height: 480px;"
+    ></canvas>
+    <script>
+      var Context = {
+        canvas : null,
+        context : null,
+        create: function(canvas_tag_id) {
+          this.canvas = document.getElementById(canvas_tag_id)
+          this.context = this.canvas.getContext('2d');
+          return this.context;
+        }
+      };
+
+      var Sprite = function(filename, is_pattern) {
+
+        // Construct
+        this.image = null;
+        this.pattern = null;
+        this.TO_RADIANS = Math.PI/180;
+
+        if (filename != undefined && filename != "" && filename != null)
+        {
+          this.image = new Image();
+          this.image.src = filename;
+
+          if (is_pattern)
+            this.pattern = Context.context.createPattern(this.image, 'repeat');
+        }
+        else {
+          console.log("Unable to load sprite.");
+
+        this.draw = function(x, y, w, h)
+        {
+          // Pattern?
+          if (this.pattern != null)
+          {
+            Context.context.fillStyle = this.pattern;
+            Context.context.fillRect(x, y, w, h)
+
+          } else {
+
+            // Image
+            if (w != undefined || h != undefined)
+            {
+              Context.context.drawImage(this.image, x, y,
+              this.image.width,
+            this,image.height);
+          } else {
+
+            // Stretched
+            Context.context.drawImage(this.image, x, y, w, h);
+
+          }
+
+          }
+        };
+
+        this.rotate = function(x, y, angle)
+        {
+          Context.context.save();
+
+          Context.context.translate(x, y);
+          Context.context.rotate(angle * this.TO_RADIANS);
+
+          Context.context.drawImage(this.image,
+                                  -(this.image.width/2)
+                                  -(this.image.height/2));
+
+          Context.context.restore();
+        };
+
+      };
+
+      var img = new Sprite("hills.png", true)
+
+      $(document).ready(funtion() {
+
+        // Initialize canvas
+        Context.create("canvas");
+
+        var WALL = "hills.png";
+        var CRATE = "hills.png";
+
+        var image = new Sprite(WALL, false);
+        var image2 = new Sprite(CRATE, false);
+        var pattern = new Sprite(CRATE, true);
+        var angle = 0;
+
+        setInterval(function() {
+
+          Context.context.fillStyle = "#000000";
+          Context.context.fillRect(0,0,800,800);
+
+          image.draw(0,0,64,64);
+          image.draw(0,74,256,32);
+          pattern.draw(160,160,256,180);
+
+          image.rotate(115,160, angle += 4.0);
+          image2.rotate(115,260,-angle/2);
+
+        }, 25);
+
+
+      });
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script>
       $(function(){
@@ -52,14 +158,9 @@
 
       ga('create', 'UA-78082698-1', 'auto');
       ga('send', 'pageview');
-
     </script>
-    <h2><a href="http://slither.io">slither.io</a></h2>
-    <iframe src="http://slither.io" frameborder="0" scrolling="no" width="100%" height="700"></iframe>
-    <h2><a href="http://agar.io">agar.io</a></h2>
-    <iframe src="http://agar.io" frameborder="0" scrolling="no" width="100%" height="700"></iframe>
-    <h2><a href="http://splix.io">splix.io</a></h2>
-    <iframe src="http://splix.io" frameborder="0" scrolling="no" width="100%" height="700"></iframe>
+
+
 
     <form id='donatebutton' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
     <input type="hidden" name="cmd" value="_s-xclick">
