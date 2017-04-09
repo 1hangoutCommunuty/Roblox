@@ -92,6 +92,7 @@ h2 a, h2{
     display: flex;
     flex-flow: wrap;
     max-width: 1000px;
+    margin: 0 auto;
   }
   .minecraftserver{
     width: 100%;
