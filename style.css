@@ -148,9 +148,25 @@ nav.nav {
     width: 96%;
   }
 }
-#mcservers{
+.ipinput{
   width: 1px;
   height: 1px;
   position: absolute;
   left: -9999px;
+}
+.notification{
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  left: 20px;
+  width: 100%;
+  text-align: center;
+}
+.notification p{
+  display: inline;
+  background: white;
+  padding: 20px 30px;
+  border-radius: 3px;
+  font-size: 2em;
+  font-family: sans-serif;
 }

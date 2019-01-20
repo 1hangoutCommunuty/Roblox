@@ -32,7 +32,7 @@
   <div class="g-ytsubscribe" data-channelid="UCCYm6GAI6Jy45ju1OL15-pA" data-layout="full" data-count="default"></div>
   <br>
     <form class="searchWrapper">
-      <input type="text" name="search" placeholder="Search Planet Minecraft" class="search">
+      <input type="text" name="search" placeholder="Search for Minecraft Servers" class="search">
     </form>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script>
@@ -55,12 +55,12 @@
       ga('send', 'pageview');
 
     </script>
-    <input type="text" name="frg" value="play.austinfrg.com" id="mcservers">
-    <div class="title"><a class="game" data-clipboard-target="#mcservers" href="#"><img src="../FRGMC.png">AustinFRG</a></div>
-    <input type="text" name="frg" value="hypixel.net" id="mcservers">
-    <div class="title"><a class="game" data-clipboard-target="#mcservers" href="#"><img src="../HypixelMC.png">Hypixel</a></div>
-    <input type="text" name="frg" value="hivemc.com" id="mcservers">
-    <div class="title"><a class="game" data-clipboard-target="#mcservers" href="#"><img src="../TheHiveMC.png">HiveMC</a></div>
+    <input type="text" name="frg" value="play.austinfrg.com" id="austinfrgserver" class="ipinput">
+    <div class="title"><a class="game" data-clipboard-target="#austinfrgserver" href="#"><img src="../FRGMC.png">AustinFRG</a></div>
+    <input type="text" name="frg" value="hypixel.net" id="hypixelserver" class="ipinput">
+    <div class="title"><a class="game" data-clipboard-target="#hypixelserver" href="#"><img src="../HypixelMC.png">Hypixel</a></div>
+    <input type="text" name="frg" value="hivemc.com" id="hivemcserver" class="ipinput">
+    <div class="title"><a class="game" data-clipboard-target="#hivemcserver" href="#"><img src="../TheHiveMC.png">HiveMC</a></div>
 
     <form id='donatebutton' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
     <input type="hidden" name="cmd" value="_s-xclick">
@@ -72,6 +72,7 @@
 
   </article>
   <div style='max-width:700px;margin:0 auto;background:none;'><img src="../Email.png" alt=""></div>
+  <div class="notification"><p></p></div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
   <script>
@@ -85,6 +86,16 @@
 
     }
     new ClipboardJS(".game");
+    $(".game").click(function(e){
+      e.preventDefault();
+      var ip = $(this).data("clipboard-target");
+      ip = $(ip).val();
+      $(".notification p").text(ip+" has been copied to your clipboard.");
+      $(".notification").fadeIn();
+      setTimeout(function(){
+        $(".notification").fadeOut();
+      },3000);
+    })
   </script>
 </body>
 </html>
