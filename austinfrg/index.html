@@ -89,7 +89,6 @@
     }
     new ClipboardJS(".game");
     $(".game").click(function(e){
-      e.preventDefault();
       var ip = $(this).data("clipboard-target");
       ip = $(ip).val();
       $(".notification p").text(ip+" has been copied to your clipboard.");
