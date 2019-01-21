@@ -21,8 +21,8 @@
   </header>
   <nav class="nav">
     <a href="../" class="tab">Roblox</a>
-    <a href="../austinfrg" class="tab">AustinFRG [Minecraft]</a>
-    <a href="#" class="tab">Minecraft</a>
+    <a href="#" class="tab">AustinFRG [Minecraft]</a>
+    <a href="../minecraft" class="tab">Minecraft</a>
     <a href="../other" class="tab">Other Games</a>
   </nav>
   <a href='https://www.roblox.com/games/?SortFilter=default&TimeFilter=0&GenreFilter=1'><img src="../roblox background.png" class="header"></a>
@@ -56,14 +56,12 @@
       ga('send', 'pageview');
 
     </script>
-    <input type="text" name="frg" value="play.austinfrg.com" id="austinfrgserver" class="ipinput">
-    <div class="title"><a class="game" data-clipboard-target="#austinfrgserver" href="#"><img src="../FRGMC.png">AustinFRG</a></div>
-    <input type="text" name="frg" value="galaxylands.net" id="galaxylandsserver" class="ipinput">
-    <div class="title"><a class="game" data-clipboard-target="#galaxylandsserver" href="#"><img src="../GalaxyLandsMC.png">GalaxyLands [Coming Soon]</a></div>
-    <input type="text" name="frg" value="hypixel.net" id="hypixelserver" class="ipinput">
-    <div class="title"><a class="game" data-clipboard-target="#hypixelserver" href="#"><img src="../HypixelMC.png">Hypixel</a></div>
-    <input type="text" name="frg" value="hivemc.com" id="hivemcserver" class="ipinput">
-    <div class="title"><a class="game" data-clipboard-target="#hivemcserver" href="#"><img src="../TheHiveMC.png">HiveMC</a></div>
+    <div class="title"><a class="game" href="https://funrobloxgames.com/buycraft"><img src="FRGBuycraft.png">AustinFRG Buycraft [Not Currently Working]</a></div>
+    <div class="title"><a class="game" href="https://funrobloxgames.com/merch"><img src="FRGMerch.png">AustinFRG Merchandise [Not Currently Working]</a></div>
+    <div class="title"><a class="game" href="https://funrobloxgames.com/apply"><img src="FRGApply.png">AustinFRG Applications [Not Currently Working]</a></div>
+    <div class="title"><a class="game" href="https://funrobloxgames.com/appeal"><img src="FRGBuycraft.png">AustinFRG Appeal [Not Currently Working]</a></div>
+    <div class="title"><a class="game" href="https://discord.gg/vKgPBNY"><img src="FRGDiscord.png">AustinFRG Discord</a></div>
+    <div class="title"><a class="game"><img src="FRGIP.png">AustinFRG IP</a></div>
 
     <form id='donatebutton' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
     <input type="hidden" name="cmd" value="_s-xclick">
@@ -88,17 +86,6 @@
       console.log('false');
 
     }
-    new ClipboardJS(".game");
-    $(".game").click(function(e){
-      e.preventDefault();
-      var ip = $(this).data("clipboard-target");
-      ip = $(ip).val();
-      $(".notification p").text(ip+" has been copied to your clipboard.");
-      $(".notification").fadeIn();
-      setTimeout(function(){
-        $(".notification").fadeOut();
-      },3000);
-    })
   </script>
 </body>
 </html>
