@@ -61,7 +61,8 @@
     <div class="title"><a class="game" href="https://funrobloxgames.com/apply"><img src="FRGApply.png">AustinFRG Applications [Not Currently Working]</a></div>
     <div class="title"><a class="game" href="https://funrobloxgames.com/appeal"><img src="FRGBuycraft.png">AustinFRG Appeal [Not Currently Working]</a></div>
     <div class="title"><a class="game" href="https://discord.gg/vKgPBNY"><img src="FRGDiscord.png">AustinFRG Discord</a></div>
-    <div class="title"><a class="game" href="https://funrobloxgames.com/austinfrg"><img src="FRGAddress.png">AustinFRG IP</a></div>
+    <input type="text" name="frg" value="play.austinfrg.com" id="austinfrgserver" class="ipinput">
+    <div class="title"><a class="game" data-clipboard-target="#austinfrgserver" href="#"><img src="../FRGAddress.png">AustinFRG IP</a></div>
 
     <form id='donatebutton' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
     <input type="hidden" name="cmd" value="_s-xclick">
@@ -86,6 +87,17 @@
       console.log('false');
 
     }
+    new ClipboardJS(".game");
+    $(".game").click(function(e){
+      e.preventDefault();
+      var ip = $(this).data("clipboard-target");
+      ip = $(ip).val();
+      $(".notification p").text(ip+" has been copied to your clipboard.");
+      $(".notification").fadeIn();
+      setTimeout(function(){
+        $(".notification").fadeOut();
+      },3000);
+    })
   </script>
 </body>
 </html>
