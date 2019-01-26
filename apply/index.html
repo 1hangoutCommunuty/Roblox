@@ -21,8 +21,8 @@
   </header>
   <nav class="nav">
     <a href="../" class="tab">Roblox</a>
-    <a href="#" class="tab">AustinFRG</a>
-    <a href="../apply" class="tab">AustinFRG Apply</a>
+    <a href="../austinfrg" class="tab">AustinFRG</a>
+    <a href="#" class="tab">AustinFRG Apply</a>
     <a href="../minecraft" class="tab">Minecraft</a>
     <a href="../other" class="tab">Other Games</a>
   </nav>
@@ -57,18 +57,7 @@
       ga('send', 'pageview');
 
     </script>
-    <input type="text" name="frg" value="https://austinfrg0.buycraft.net/" id="austinfrgbuycraft" class="ipinput">
-    <div class="title"><a class="game" data-clipboard-target="#austinfrgbuycraft" href="https://austinfrg0.buycraft.net/"><img src="../FRGBuycraft.png">AustinFRG Buycraft</a></div>
-    <input type="text" name="frg" value="https://austinfrg.webstarts.com/" id="austinfrgmerchandise" class="ipinput">
-    <div class="title"><a class="game" data-clipboard-target="#austinfrgmerch" href="https://austinfrg.webstarts.com/"><img src="../FRGMerchandise.png">AustinFRG Merchandise</a></div>
-    <input type="text" name="frg" value="https://funrobloxgames.com/apply" id="austinfrgapply" class="ipinput">
-    <div class="title"><a class="game" data-clipboard-target="#austinfrgapply" href="https://funrobloxgames.com/apply"><img src="../FRGApply.png">AustinFRG Applications [Not Currently Working]</a></div>
-    <input type="text" name="frg" value="https://goo.gl/forms/7deoG5JUorXWnqso2" id="austinfrgappeal" class="ipinput">
-    <div class="title"><a class="game" data-clipboard-target="#austinfrgappeal" href="https://goo.gl/forms/7deoG5JUorXWnqso2"><img src="../FRGAppeal.png">AustinFRG Appeal</a></div>
-    <input type="text" name="frg" value="https://discord.gg/vKgPBNY" id="austinfrgdiscord" class="ipinput">
-    <div class="title"><a class="game" data-clipboard-target="#austinfrgdiscord" href="https://discord.gg/vKgPBNY"><img src="../FRGDiscord.png">AustinFRG Discord</a></div>
-    <input type="text" name="frg" value="play.austinfrg.com" id="austinfrgserver" class="ipinput">
-    <div class="title"><a class="game" data-clipboard-target="#austinfrgserver" href="#"><img src="../FRGAddress.png">AustinFRG IP</a></div>
+    <div class="title"><a class="game" href="https://goo.gl/forms/fQ2SeBSuJz88wRid2"><img src="Helper.png">Helper</a></div>
 
     <form id='donatebutton' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
     <input type="hidden" name="cmd" value="_s-xclick">
@@ -93,16 +82,6 @@
       console.log('false');
 
     }
-    new ClipboardJS(".game");
-    $(".game").click(function(e){
-      var ip = $(this).data("clipboard-target");
-      ip = $(ip).val();
-      $(".notification p").text(ip+" has been copied to your clipboard.");
-      $(".notification").fadeIn();
-      setTimeout(function(){
-        $(".notification").fadeOut();
-      },3000);
-    })
   </script>
 </body>
 </html>
