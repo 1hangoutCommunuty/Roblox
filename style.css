@@ -176,9 +176,6 @@ nav.nav {
   margin-right: auto;
   width: auto;
 }
-.austin{
-  margin-right: 3px;
-}
-.courtney{
-  margin-right: 3px;
+.austin, .courtney{
+  margin: 5px;
 }
