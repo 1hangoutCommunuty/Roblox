@@ -190,6 +190,5 @@ nav.nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  font: bold;
-  margin-left: 10%;
+  margin: auto;
 }
