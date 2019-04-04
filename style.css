@@ -191,6 +191,33 @@ nav.nav {
   justify-content: center;
   margin-left: 2%;
 }
+.minecraftdesc{
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 1.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2%;
+}
+.austinfrgdesc{
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 1.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2%;
+}
+.applydesc{
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 1.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2%;
+}
 .game-header{
   margin-right: 30px;
 }
