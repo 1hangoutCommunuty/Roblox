@@ -232,3 +232,13 @@ nav.nav {
   justify-content: center;
   margin-left: 2%;
 }
+.aboutus{
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 1.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
