@@ -172,8 +172,8 @@ nav.nav {
 }
 .centeraff {
   display: block;
-  margin-left: 3%;
-  margin-right: auto;
+  align-items: center;
+  justify-content: center;
   width: auto;
 }
 .austin, .courtney {
