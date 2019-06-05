@@ -178,6 +178,8 @@ nav.nav {
 }
 .austin, .courtney {
   margin: 10px;
+  align-items: center;
+  justify-content: center;
 }
 .austin > div, .courtney > div {
   margin: 10px;
