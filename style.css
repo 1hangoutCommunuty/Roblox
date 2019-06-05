@@ -172,14 +172,14 @@ nav.nav {
 }
 .centeraff {
   display: block;
-  margin-left: 50%;
-  margin-right: 50%;
+  margin-left: 15%;
   width: auto;
 }
-.austin, .courtney {
-  margin: 10px;
-  margin-left: auto;
-  margin-right: auto;
+.austin {
+  margin-left: 35%;
+}
+.courtney {
+  margin-left: 5%;
 }
 .austin > div, .courtney > div {
   margin: 10px;
