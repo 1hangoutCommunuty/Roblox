@@ -311,5 +311,6 @@ nav.nav {
   background-color: rgba(37, 37, 37, 0.719);
   padding-bottom: 15px;
   border-radius: 25px;
+  display: inline-block;
   margin: auto;
 }
