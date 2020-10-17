@@ -102,18 +102,6 @@ img {
   margin:0 auto;
 }
 
-.minecraftserver {
-  width: 100%;
-  font-family: sans-serif;
-  font-size: 1.4em;
-  max-width: 400px;
-  display: flex;
-  margin-top: 10px;
-  margin-right: 50px;
-  align-items: center;
-  justify-content: center;
-}
-
 .getmovincrew {
   width: 100%;
   font-family: sans-serif;
@@ -213,6 +201,18 @@ nav.nav {
   margin-left: 5%;
   margin-top: 4%;
   margin-bottom: 2%;
+}
+
+
+.minecraftserver {
+  font-family: sans-serif;
+  font-size: 1.4em;
+  max-width: 400px;
+  display: flex;
+  margin-top: 10px;
+  margin-right: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
 .robloxdesc {
@@ -315,6 +315,4 @@ nav.nav {
   border-radius: 25px;
   display: -webkit-inline-box;
   margin: auto;
-  padding-left: 75px;
-  padding-right: 75px;
 }
