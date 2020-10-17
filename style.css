@@ -108,6 +108,7 @@ img {
   font-size: 1.4em;
   max-width: 400px;
   display: flex;
+  margin-top: 10px;
   align-items: center;
   justify-content: center;
 }
@@ -202,14 +203,14 @@ nav.nav {
 }
 
 .austin1 {
-  margin-top: 2%;
+  margin-top: 4%;
   margin-left: 5%;
   margin-bottom: 2%;
 }
 
 .courtney {
   margin-left: 5%;
-  margin-top: 2%;
+  margin-top: 4%;
   margin-bottom: 2%;
 }
 
@@ -311,6 +312,6 @@ nav.nav {
   background-color: rgba(37, 37, 37, 0.719);
   padding-bottom: 15px;
   border-radius: 25px;
-  display: inline-block;
+  display: -webkit-inline-box;
   margin: auto;
 }
