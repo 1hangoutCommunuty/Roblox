@@ -273,6 +273,8 @@ nav.nav {
 .socials{
   background-color: rgba(37, 37, 37, 0.719);
   padding-bottom: 15px;
+  padding-left: 10em;
+  padding-right: 10em;
   border-radius: 25px;
   margin: auto;
 }
