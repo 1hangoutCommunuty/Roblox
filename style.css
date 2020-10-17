@@ -1,23 +1,27 @@
-h2 a, h2{
+h2 a, h2 {
 text-align: center;
-font-family:'Open Sans';
-color:#212121;
-font-size:2em;
-display:block;
-width:100%;
+font-family: 'Open Sans';
+color: #212121;
+font-size: 2em;
+display: block;
+width: 100%;
 }
-#donatebutton{
+
+#donatebutton {
   text-align: center;
   width: 100%;
 }
-body,header,nav,h1{
+
+body,header,nav,h1 {
   padding: 0;
   margin:0;
 }
-body{
+
+body {
   background:#E57A44;
 }
-button{
+
+button {
   background:green;
   padding-bottom:50px;
   padding-top:50px;
@@ -28,30 +32,35 @@ button{
   font-size:50px;
   cursor:pointer;
 }
-a{
+
+a {
   color: white;
   text-decoration:none;
 }
-.searchWrapper{
+
+.searchWrapper {
   width:100%;
   text-align: center;
   margin:1%;
 }
-.searchWrapper input{
+
+.searchWrapper input {
   font-size:2em;
   margin:0 auto;
   padding:2px 6px;
   width:100%;
   box-sizing:border-box;
 }
-.site
-{
+
+.site {
   font-family:"Open Sans";
 }
-.navbar{
+
+.navbar {
   list-style-type: none
 }
-.navbar li{
+
+.navbar li {
   display:inline;
   border: 2px solid blue;
   padding:20px;
@@ -60,6 +69,7 @@ a{
   color:white;
   cursor:pointer;
 }
+
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
@@ -69,15 +79,18 @@ a{
   background:yellow;
   padding:15px;
 }
-img{
+
+img {
   max-width: 100%;
 }
-.header{
+
+.header {
   background-color: #E57A44;
   margin: 0 auto;
   display: block;
 }
-.wrapper{
+
+.wrapper {
   width:100%;
   background:yellow;
   padding:15px;
@@ -88,7 +101,8 @@ img{
   max-width: 1000px;
   margin:0 auto;
 }
-.minecraftserver{
+
+.minecraftserver {
   width: 100%;
   font-family: sans-serif;
   font-size: 1.4em;
@@ -97,7 +111,8 @@ img{
   align-items: center;
   justify-content: center;
 }
-.getmovincrew{
+
+.getmovincrew {
   width: 100%;
   font-family: sans-serif;
   font-size: 1.4em;
@@ -107,6 +122,7 @@ img{
   justify-content: center;
   margin-top: 1em;
 }
+
 nav.nav {
   font-size:1.6em;
   font-family:sans-serif;
@@ -118,13 +134,15 @@ nav.nav {
   align-items: center;
   background:yellow;
 }
-.tab{
+
+.tab {
   background:#CC6D3D;
   padding:10px;
   border-radius:5px 5px 0px 0px;
   margin:0px 0px 0px 8px;
 }
-.title{
+
+.title {
   background: rgba(229, 122, 68, 0.7);
   color:white;
   padding: 1%;
@@ -132,23 +150,27 @@ nav.nav {
   font-size: 20px;
   width: 29.33%;
 }
+
 @media (max-width: 700px) {
   .title{
     width: 46%;
   }
 }
+
 @media (max-width: 450px) {
   .title{
     width: 96%;
   }
 }
-.ipinput{
+
+.ipinput {
   width: 1px;
   height: 1px;
   position: absolute;
   left: -9999px;
 }
-.notification{
+
+.notification {
   display: none;
   position: fixed;
   bottom: 40px;
@@ -156,7 +178,8 @@ nav.nav {
   width: 100%;
   text-align: center;
 }
-.notification p{
+
+.notification p {
   display: inline;
   background: white;
   padding: 20px 30px;
@@ -164,28 +187,33 @@ nav.nav {
   font-size: 2em;
   font-family: sans-serif;
 }
+
 .centeraff {
   display: block;
   margin-left: 90%;
   margin-right: 90%;
   width: auto;
 }
+
 .austin {
   margin-left: 35%;
   margin-top: 2%;
   margin-bottom: 2%;
 }
+
 .austin1 {
   margin-top: 2%;
   margin-left: 10%;
   margin-bottom: 2%;
 }
+
 .courtney {
   margin-left: 5%;
   margin-top: 2%;
   margin-bottom: 2%;
 }
-.robloxdesc{
+
+.robloxdesc {
   width: 100%;
   font-family: sans-serif;
   font-size: 1.4em;
@@ -195,7 +223,8 @@ nav.nav {
   margin-left: 2%;
   margin-top: 2%;
 }
-.minecraftdesc{
+
+.minecraftdesc {
   width: 100%;
   font-family: sans-serif;
   font-size: 1.4em;
@@ -205,7 +234,8 @@ nav.nav {
   margin-left: 2%;
   margin-bottom: 2%;
 }
-.austinfrgdesc{
+
+.austinfrgdesc {
   width: 100%;
   font-family: sans-serif;
   font-size: 1.4em;
@@ -215,7 +245,8 @@ nav.nav {
   margin-left: 2%;
   margin-bottom: 2%;
 }
-.applydesc{
+
+.applydesc {
   width: 100%;
   font-family: sans-serif;
   font-size: 1.4em;
@@ -224,10 +255,11 @@ nav.nav {
   justify-content: center;
   margin-left: 2%;
 }
-.game-header{
+
+.game-header {
   margin-right: 30px;
 }
-.aboutus1{
+.aboutus1 {
   width: 100%;
   font-family: sans-serif;
   font-size: 1.4em;
@@ -238,7 +270,8 @@ nav.nav {
   margin-bottom: 3%;
   margin-top: 3%;
 }
-.aboutus2{
+
+.aboutus2 {
   width: 100%;
   font-family: sans-serif;
   display: flex;
@@ -248,7 +281,8 @@ nav.nav {
   margin-bottom: 3%;
   margin-top: 3%;
 }
-.aboutus3{
+
+.aboutus3 {
   width: 100%;
   font-family: sans-serif;
   align-items: center;
@@ -257,7 +291,8 @@ nav.nav {
   margin-top: 1%;
   margin-right: auto;
 }
-.aboutus4{
+
+.aboutus4 {
   width: 100%;
   font-family: sans-serif;
   align-items: center;
@@ -267,10 +302,12 @@ nav.nav {
   margin-top: 2%;
   margin-right: auto;
 }
-.about-page{
+
+.about-page {
   margin-right: 30px;
 }
-.socials{
+
+.socials {
   background-color: rgba(37, 37, 37, 0.719);
   padding-bottom: 15px;
   border-radius: 25px;
