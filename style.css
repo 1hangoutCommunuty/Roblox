@@ -109,6 +109,7 @@ img {
   max-width: 400px;
   display: flex;
   margin-top: 10px;
+  margin-right: 50px;
   align-items: center;
   justify-content: center;
 }
@@ -314,4 +315,6 @@ nav.nav {
   border-radius: 25px;
   display: -webkit-inline-box;
   margin: auto;
+  padding-left: 75px;
+  padding-right: 75px;
 }
