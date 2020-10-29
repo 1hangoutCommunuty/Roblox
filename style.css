@@ -285,3 +285,10 @@ nav.nav {
 .about-page{
   margin-right: 30px;
 }
+.yt-username{
+  display: block;
+  height: 23px;
+  color: #ababab;
+  font-weight: 500;
+  white-space: nowrap;
+}
