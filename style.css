@@ -1,23 +1,27 @@
-h2 a, h2{
+h2 a, h2 {
 text-align: center;
-font-family:'Open Sans';
-color:#212121;
-font-size:2em;
-display:block;
-width:100%;
+font-family: 'Open Sans';
+color: #212121;
+font-size: 2em;
+display: block;
+width: 100%;
 }
-#donatebutton{
+
+#donatebutton {
   text-align: center;
   width: 100%;
 }
-body,header,nav,h1{
+
+body,header,nav,h1 {
   padding: 0;
   margin:0;
 }
-body{
+
+body {
   background:#E57A44;
 }
-button{
+
+button {
   background:green;
   padding-bottom:50px;
   padding-top:50px;
@@ -28,30 +32,35 @@ button{
   font-size:50px;
   cursor:pointer;
 }
-a{
+
+a {
   color: white;
   text-decoration:none;
 }
-.searchWrapper{
+
+.searchWrapper {
   width:100%;
   text-align: center;
   margin:1%;
 }
-.searchWrapper input{
+
+.searchWrapper input {
   font-size:2em;
   margin:0 auto;
   padding:2px 6px;
   width:100%;
   box-sizing:border-box;
 }
-.site
-{
+
+.site {
   font-family:"Open Sans";
 }
-.navbar{
+
+.navbar {
   list-style-type: none
 }
-.navbar li{
+
+.navbar li {
   display:inline;
   border: 2px solid blue;
   padding:20px;
@@ -60,6 +69,7 @@ a{
   color:white;
   cursor:pointer;
 }
+
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
@@ -69,21 +79,18 @@ a{
   background:yellow;
   padding:15px;
 }
-img{
+
+img {
   max-width: 100%;
 }
-.header{
+
+.header {
   background-color: #E57A44;
   margin: 0 auto;
   display: block;
 }
-.game{
-  /*width:45%;*/
-  /*flex: 1 0 50%;*/
-  /*box-sizing: border-box;
-  padding: 10px;*/
-}
-.wrapper{
+
+.wrapper {
   width:100%;
   background:yellow;
   padding:15px;
@@ -94,16 +101,8 @@ img{
   max-width: 1000px;
   margin:0 auto;
 }
-.minecraftserver{
-  width: 100%;
-  font-family: sans-serif;
-  font-size: 1.4em;
-  max-width: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.getmovincrew{
+
+.getmovincrew {
   width: 100%;
   font-family: sans-serif;
   font-size: 1.4em;
@@ -113,6 +112,7 @@ img{
   justify-content: center;
   margin-top: 1em;
 }
+
 nav.nav {
   font-size:1.6em;
   font-family:sans-serif;
@@ -124,13 +124,15 @@ nav.nav {
   align-items: center;
   background:yellow;
 }
-.tab{
+
+.tab {
   background:#CC6D3D;
   padding:10px;
   border-radius:5px 5px 0px 0px;
   margin:0px 0px 0px 8px;
 }
-.title{
+
+.title {
   background: rgba(229, 122, 68, 0.7);
   color:white;
   padding: 1%;
@@ -138,23 +140,27 @@ nav.nav {
   font-size: 20px;
   width: 29.33%;
 }
+
 @media (max-width: 700px) {
   .title{
     width: 46%;
   }
 }
+
 @media (max-width: 450px) {
   .title{
     width: 96%;
   }
 }
-.ipinput{
+
+.ipinput {
   width: 1px;
   height: 1px;
   position: absolute;
   left: -9999px;
 }
-.notification{
+
+.notification {
   display: none;
   position: fixed;
   bottom: 40px;
@@ -162,7 +168,8 @@ nav.nav {
   width: 100%;
   text-align: center;
 }
-.notification p{
+
+.notification p {
   display: inline;
   background: white;
   padding: 20px 30px;
@@ -170,38 +177,56 @@ nav.nav {
   font-size: 2em;
   font-family: sans-serif;
 }
+
 .centeraff {
   display: block;
   margin-left: 90%;
   margin-right: 90%;
   width: auto;
 }
+
 .austin {
   margin-left: 35%;
   margin-top: 2%;
   margin-bottom: 2%;
 }
+
 .austin1 {
-  margin-top: 2%;
-  margin-left: 10%;
+  margin-top: 4%;
+  margin-left: 5%;
   margin-bottom: 2%;
 }
+
 .courtney {
   margin-left: 5%;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+
+.minecraftserver {
+  font-family: sans-serif;
+  font-size: 1.4em;
+  max-width: 400px;
+  display: flex;
+  margin-top: 10px;
+  margin-right: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.robloxdesc {
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 1.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2%;
   margin-top: 2%;
-  margin-bottom: 2%;
 }
-.robloxdesc{
-  width: 100%;
-  font-family: sans-serif;
-  font-size: 1.4em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 2%;
-  margin-top: 2%;
-}
-.minecraftdesc{
+
+.minecraftdesc {
   width: 100%;
   font-family: sans-serif;
   font-size: 1.4em;
@@ -211,7 +236,8 @@ nav.nav {
   margin-left: 2%;
   margin-bottom: 2%;
 }
-.austinfrgdesc{
+
+.austinfrgdesc {
   width: 100%;
   font-family: sans-serif;
   font-size: 1.4em;
@@ -221,7 +247,8 @@ nav.nav {
   margin-left: 2%;
   margin-bottom: 2%;
 }
-.applydesc{
+
+.applydesc {
   width: 100%;
   font-family: sans-serif;
   font-size: 1.4em;
@@ -230,19 +257,11 @@ nav.nav {
   justify-content: center;
   margin-left: 2%;
 }
-.game-header{
+
+.game-header {
   margin-right: 30px;
 }
-.iogamesdesc{
-  width: 100%;
-  font-family: sans-serif;
-  font-size: 1.4em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 2%;
-}
-.aboutus1{
+.aboutus1 {
   width: 100%;
   font-family: sans-serif;
   font-size: 1.4em;
@@ -253,7 +272,8 @@ nav.nav {
   margin-bottom: 3%;
   margin-top: 3%;
 }
-.aboutus2{
+
+.aboutus2 {
   width: 100%;
   font-family: sans-serif;
   display: flex;
@@ -263,7 +283,8 @@ nav.nav {
   margin-bottom: 3%;
   margin-top: 3%;
 }
-.aboutus3{
+
+.aboutus3 {
   width: 100%;
   font-family: sans-serif;
   align-items: center;
@@ -272,7 +293,8 @@ nav.nav {
   margin-top: 1%;
   margin-right: auto;
 }
-.aboutus4{
+
+.aboutus4 {
   width: 100%;
   font-family: sans-serif;
   align-items: center;
@@ -282,7 +304,8 @@ nav.nav {
   margin-top: 2%;
   margin-right: auto;
 }
-.about-page{
+
+.about-page {
   margin-right: 30px;
 }
 .yt-username{
@@ -291,4 +314,134 @@ nav.nav {
   color: #ababab;
   font-weight: 500;
   white-space: nowrap;
+}
+.socials {
+  background-color: rgba(37, 37, 37, 0.719);
+  padding-bottom: 15px;
+  border-radius: 25px;
+  display: -webkit-inline-box;
+  margin: auto;
+}
+
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px #000;
+}
+
+@-webkit-keyframes snowflakes-fall {
+  0% {
+      top: -10%
+  }
+  100% {
+      top:100%
+  }
+}
+@-webkit-keyframes snowflakes-shake {
+  0%,100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0)
+  }
+  50% {
+      -webkit-transform: translateX(80px);
+      transform: translateX(80px)
+  }
+}
+@keyframes snowflakes-fall {
+  0% {
+      top: -10%
+  }
+  100% {
+      top: 100%
+  }
+}
+@keyframes snowflakes-shake {
+  0%,100% {
+      transform: translateX(0)
+  }
+  50% {
+      transform: translateX(80px)
+  }
+}
+
+.snowflake {
+  position: fixed;
+  top: -10%;
+  z-index: 9999;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  -webkit-animation-name: snowflakes-fall,snowflakes-shake;
+  -webkit-animation-duration: 10s,3s;
+  -webkit-animation-timing-function: linear,ease-in-out;
+  -webkit-animation-iteration-count: infinite,infinite;
+  -webkit-animation-play-state: running,running;
+  animation-name: snowflakes-fall,snowflakes-shake;
+  animation-duration: 10s,3s;
+  animation-timing-function: linear,ease-in-out;
+  animation-iteration-count: infinite,infinite;
+  animation-play-state: running,running
+}
+.snowflake:nth-of-type(0) {
+  left: 1%;
+  -webkit-animation-delay: 0s,0s;
+  animation-delay:0s,0s
+}
+.snowflake:nth-of-type(1) {
+  left: 10%;
+  -webkit-animation-delay: 1s,1s;
+  animation-delay: 1s,1s
+}
+.snowflake:nth-of-type(2) {
+  left: 20%;
+  -webkit-animation-delay: 6s,.5s;
+  animation-delay: 6s,.5s
+}
+.snowflake:nth-of-type(3) {
+  left: 30%;
+  -webkit-animation-delay: 4s,2s;
+  animation-delay: 4s,2s
+}
+.snowflake:nth-of-type(4) {
+  left: 40%;
+  -webkit-animation-delay: 2s,2s;
+  animation-delay: 2s,2s
+}
+.snowflake:nth-of-type(5) {
+  left: 50%;
+  -webkit-animation-delay: 8s,3s;
+  animation-delay: 8s,3s
+}
+.snowflake:nth-of-type(6) {
+  left: 60%;
+  -webkit-animation-delay: 6s,2s;
+  animation-delay:6s,2s
+}
+.snowflake:nth-of-type(7) {
+  left: 70%;
+  -webkit-animation-delay: 2.5s,1s;
+  animation-delay: 2.5s,1s
+}
+.snowflake:nth-of-type(8) {
+  left: 80%;
+  -webkit-animation-delay: 1s,0s;
+  animation-delay: 1s,0s
+}
+.snowflake:nth-of-type(9) {
+  left: 90%;
+  -webkit-animation-delay: 3s,1.5s;
+  animation-delay: 3s,1.5s
+}
+.snowflake:nth-of-type(10) {
+  left: 25%;
+  -webkit-animation-delay: 2s,0s;
+  animation-delay: 2s,0s
+}
+.snowflake:nth-of-type(11) {
+  left: 65%;
+  -webkit-animation-delay: 4s,2.5s;
+  animation-delay: 4s,2.5s
 }
