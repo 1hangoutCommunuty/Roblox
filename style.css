@@ -323,13 +323,6 @@ nav.nav {
   margin: auto;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 .snowflake {
   color: #fff;
   font-size: 1em;
