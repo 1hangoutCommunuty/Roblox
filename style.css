@@ -76,7 +76,7 @@ a {
   width: 100%;
   box-sizing: border-box;
   align-items: center;
-  background:yellow;
+  background: #2a2f38;
   padding:15px;
 }
 
@@ -92,7 +92,7 @@ img {
 
 .wrapper {
   width:100%;
-  background:yellow;
+  background: #2a2f38;
   padding:15px;
   height:100%;
   box-sizing:border-box;
@@ -122,7 +122,7 @@ nav.nav {
   width: 100%;
   box-sizing: border-box;
   align-items: center;
-  background:yellow;
+  background: #2a2f38;
 }
 
 .tab {
