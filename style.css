@@ -42,7 +42,7 @@ a {
   width:100%;
   text-align: center;
   margin:1%;
-  color:#616161
+  background-color:#616161;
 }
 
 .searchWrapper input {
@@ -51,7 +51,7 @@ a {
   padding:2px 6px;
   width:100%;
   box-sizing:border-box;
-  color:#68696b;
+  background-color:#68696b;
 }
 
 .site {
