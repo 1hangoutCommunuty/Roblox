@@ -10,6 +10,13 @@ width: 100%;
 .madsen-aff {
   display: inline-flex;
 }
+.madsen-title {
+  color: white;
+  padding: 1%;
+  margin: 1%;
+  font-size: 20px;
+  width: 29.33%;
+}
 
 #donatebutton {
   text-align: center;
