@@ -7,6 +7,10 @@ display: block;
 width: 100%;
 }
 
+.madsen-aff {
+  display: inline-flex;
+}
+
 #donatebutton {
   text-align: center;
   width: 100%;
