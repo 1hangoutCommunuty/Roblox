@@ -328,10 +328,10 @@ nav.nav {
 .socials {
   background-color: rgba(37, 37, 37, 0.719);
   padding-bottom: 15px;
-  margin-bottom: 15px;
   border-radius: 25px;
   display: -webkit-inline-box;
   margin: auto;
+  margin-bottom: 15px;
 }
 
 .snowflake {
